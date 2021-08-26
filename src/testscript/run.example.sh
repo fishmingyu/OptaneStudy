@@ -13,7 +13,7 @@ export PATH=$PATH:`pwd`/subtests/bin
 testapp=./subtests/30_stridebw.sh
 repdev=`mount | grep ReportFS | awk {'print \$1'}`
 testdev=`mount | grep LatencyFS | awk {'print \$1'}`
-runtime=20
+runtime=1
 
 if [ -z $repdev ] || [ -z $testdev ]; then
 	echo "Please run mount.sh first"

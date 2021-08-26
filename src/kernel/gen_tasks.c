@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 	{
 		printf("fopen error %d\n", errno);
 	}
-	fprintf(fp, "#!/usr/bin/python\n");
+	// fprintf(fp, "#!/usr/bin/python\n");
 
 	if (task == 1)
 	{
